@@ -13,8 +13,8 @@
 
 | Component | Model   |
 | --------- | ------- |
-| OpenCore  | 0.5.8   |
-| macOS     | 10.15.4 |
+| OpenCore  | 0.5.9   |
+| macOS     | 10.15.5 |
 
 ## Status
 
