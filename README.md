@@ -11,10 +11,10 @@
 
 ## Software
 
-| Component | Model   |
-| --------- | ------- |
-| OpenCore  | 0.5.9   |
-| macOS     | 10.15.5 |
+| Component | Model     |
+| --------- | --------- |
+| OpenCore  | 0.6.2     |
+| macOS     | 11.0 beta |
 
 ## Status
 
