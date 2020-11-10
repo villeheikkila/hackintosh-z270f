@@ -11,11 +11,11 @@
 
 ## Software
 
-| Component | Model     |
-| --------- | --------- |
-| OpenCore  | 0.6.2     |
-| macOS     | 11.0 beta |
+| Component | Model |
+| --------- | ----- |
+| OpenCore  | 0.6.4 |
+| macOS     | 11.1  |
 
 ## Status
 
-Currently everything else works as expected but the boot up is relatively slow (50s) with FileVault enabled and the unlock with Apple Watch stalls on login even though it works elsewhere.
+Currently everything else works except for the unlock with Apple Watch stalls on login even though it works elsewhere.
