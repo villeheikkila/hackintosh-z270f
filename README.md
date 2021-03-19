@@ -11,11 +11,19 @@
 
 ## Software
 
-| Component | Model |
-| --------- | ----- |
-| OpenCore  | 0.6.6 |
-| macOS     | 11.2  |
+| Component | Model  |
+| --------- | ------ |
+| OpenCore  | 0.6.7  |
+| macOS     | 11.2.3 |
+
+## How to get started
+
+Read the [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/). Set the MLB, ROM, SystemSerialNumber and SystemUUID as instructed.
 
 ## Status
 
-Currently everything else works except for the unlock with Apple Watch stalls on login even though it works elsewhere.
+Currently everything else works except for the unlock with Apple Watch stalls on login even though it works elsewhere. There are also some issues with DRM in Big Sur. Partial fix that can be used is to run
+
+`defaults write com.apple.AppleGVA gvaForceAMDKE -boolean no`
+
+in the terminal to force the use of the discrete GPU's decoder. This however breaks screen recording.
