@@ -13,7 +13,7 @@
 
 | Component | Model  |
 | --------- | ------ |
-| OpenCore  | 0.6.7  |
+| OpenCore  | 0.6.8  |
 | macOS     | 11.2.3 |
 
 ## How to get started
